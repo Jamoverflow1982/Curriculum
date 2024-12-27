@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javier Monzon - Portfolio</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><h1>Javier Monzon</h1></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Contactate Conmigo</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item redes">
+                                <a class="nav-link active" href="https://www.linkedin.com/in/javiermonzon82/" target="_blank"><img src="./assets/img/form/linkedin.svg" alt="Icono de Linkedin"></a>
+                                <a class="nav-link active" href="https://github.com/Jamoverflow1982" target="_blank"><img src="./assets/img/form/github.svg" alt="Icono de Github"></a>
+                                <a class="nav-link active" href="mailto:jamonzon82@gmail.com"><img src="./assets/img/form/mail.svg" alt="Icono de Mail"></a>
+                                <a class="nav-link active" href="https://wa.me/5491168363457/?text=Hola!!! Vengo de tu Portfolio, y quisiera contactarme contigo!" target="_blank"><img src="./assets/img/form/whatsapp.svg" alt="Icono de WhatsApp"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <form action="https://formspree.io/f/mjkkgaoo" target="_blank" method="POST" id="form">
+                                        <input class="form-control" type="text" name="name" id="name" placeholder="Nombre">
+                                        <small class="text-danger d-none" id="errorNombre">El nombre es requerido</small>
+                                        <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+                                        <small class="text-danger d-none" id="errorEmail">El email es requerido</small>
+                                        <textarea class="form-control" name="message" id="message" cols="25" rows="5" placeholder="Mensaje"></textarea>
+                                        <div class="btnForm">
+                                            <button class="btn btn-success" type="submit">Enviar</button>
+                                            <button class="btn btn-danger" type="reset" id="limpiar">Limpiar</button>
+                                        </div>
+                                        <div>
+                                            <div class="d-none resEnvio" id="enviado">
+                                                <img src="./assets/img/form/envelope-check-fill.svg" alt="Imagen de check">
+                                                <p>¡Gracias por contactarme!</p>
+                                            </div>
+                                            <div class="d-none resEnvio" id="error">
+                                                <img src="./assets/img/form/envelope-x-fill.svg" alt="Imagen de error">
+                                                <p>Algo salio mal, intentalo de nuevo</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="datosPersonales">
+                <div class="item1">
+                    <img src="./assets/img/datos/javier.jpg" alt="Javier Monzon">
+                </div>
+                <div class="item2">
+                    <h2>Informacion Personal</h2>
+                    <div class="imgText">
+                        <img src="./assets/img/datos/person-circle.svg" alt="Persona">
+                        <p>Edad: 42 años</p>
+                    </div>
+                    <div  class="imgText">
+                        <img src="./assets/img/datos/balloon-fill.svg" alt="Globo">
+                        <p>28 de marzo de 1982</p>
+                    </div>
+                    <div class="imgText">
+                        <img src="./assets/img/datos/geo-alt-fill.svg" alt="Ubicacion">
+                        <p>Victoria, Buenos Aires - Argentina</p>
+                    </div>
+                    <div class="imgText">
+                        <img src="./assets/img/datos/patch-check-fill.svg" alt="Cursos">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Curso Python Inicial</a>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5 modalLetra" id="exampleModalLabel">Certificado de Python</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./assets/img/certificado/cacPython.jpg" alt="Certificado de Python">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item3">
+                    <h3>Un poco de mi...</h3>
+                    <p class="p1">Gracias por visitar mi currículum, a continuación te dejo un poco de mi historia. A los 12 años (con mucho esfuerzo de mis padres) tuve mi primer PC con monitor monocromático y Windows 3.1. Desde ese momento empezó mi vida con la tecnología, instalando y desinstalando diskettes de 3.5" y, obviamente, borrando algo que no tenía que borrar. Así empecé en este mundo lleno de código; tiempo más adelante, inicié mi carrera en la Universidad Tecnológica Nacional (UTN) en la carrera de Técnico Superior en Programación, pero por cosas de la vida, tuve que abandonar, y me dedique a mi segundo amor, la electrónica y mecánica automotriz. Trabajé para Peugeot y Renault, realizando cursos no solo de electrónica y tecnología, sino también de habilidades blandas, pasando por marketing, comunicación y gestión de proyectos. Hoy en día soy dueño de un negocio ya hace 8 años y contando. Pero... Uno siempre vuelve al primer amor, así que comencé a estudiar nuevamente, empezando con el curso inicial de Python, y acabo de terminar el de Front end con HTML, CSS y JavaScript. Soy una persona autodidacta, curiosa y siempre dispuesta a aprender.</p>
+                    <p class="p2">¡¡¡Gracias por visitar mi currículum!!!</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="iconos">
+                <p>Esta pagina fue realizada con:</p>
+                <img src="./assets/img/footer/iconosHtml.png" alt="Iconos Html">
+            </div>
+            <a class="flecha" href="#"><img src="./assets/img/chevronUp.svg" alt="Flecha hacia arriba"></a>
+            <p>Desarrollado por Javier Monzon - 2024</p>
+        </footer>
+        <script src="./js/formulario.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
