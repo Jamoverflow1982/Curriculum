@@ -132,6 +132,9 @@ main{
                     padding-right: 1vh;
                 }
             }
+            .cv{
+                padding-top: 2vh;
+            }
             /* Modal */
             .modal-content{
                 .modalLetra{

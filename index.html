@@ -77,14 +77,24 @@
                         <img src="./assets/img/datos/geo-alt-fill.svg" alt="Ubicacion">
                         <p>Victoria, Buenos Aires - Argentina</p>
                     </div>
-                    <div class="imgText">
-                        <img src="./assets/img/datos/patch-check-fill.svg" alt="Cursos">
-                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Curso Python Inicial</a>
+                    <div class="certificados">
+                        <div class="imgText">
+                            <img src="./assets/img/datos/patch-check-fill.svg" alt="Curso Python">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" id="python">Curso Python Inicial</a>
+                        </div>
+                        <div class="imgText">
+                            <img src="./assets/img/datos/patch-check-fill.svg" alt="Curso Front End JavaScript">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" id="js">Curso Front End JavaScript</a>
+                        </div>
+                    </div>
+                    <div class="imgText cv">
+                        <img src="./assets/img/datos/download-solid.svg" alt="Descarga Curriculum">
+                        <a href="./assets/img/curriculum.pdf" target="_blank">Descarga Curriculum Vitae</a>
                     </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
+                            <div class="modal-content d-none" id="modalPython">
                                 <div class="modal-header">
                                 <h1 class="modal-title fs-5 modalLetra" id="exampleModalLabel">Certificado de Python</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -93,12 +103,21 @@
                                     <img src="./assets/img/certificado/cacPython.jpg" alt="Certificado de Python">
                                 </div>
                             </div>
+                            <div class="modal-content d-none" id="modalJS">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5 modalLetra" id="exampleModalLabel">Certificado Front End JavaScript</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./assets/img/certificado/ttFront.jpg" alt="Certificado de Python">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="item3">
                     <h3>Un poco de mi...</h3>
-                    <p class="p1">Gracias por visitar mi currículum, a continuación te dejo un poco de mi historia. A los 12 años (con mucho esfuerzo de mis padres) tuve mi primer PC con monitor monocromático y Windows 3.1. Desde ese momento empezó mi vida con la tecnología, instalando y desinstalando diskettes de 3.5" y, obviamente, borrando algo que no tenía que borrar. Así empecé en este mundo lleno de código; tiempo más adelante, inicié mi carrera en la Universidad Tecnológica Nacional (UTN) en la carrera de Técnico Superior en Programación, pero por cosas de la vida, tuve que abandonar, y me dedique a mi segundo amor, la electrónica y mecánica automotriz. Trabajé para Peugeot y Renault, realizando cursos no solo de electrónica y tecnología, sino también de habilidades blandas, pasando por marketing, comunicación y gestión de proyectos. Hoy en día soy dueño de un negocio ya hace 8 años y contando. Pero... Uno siempre vuelve al primer amor, así que comencé a estudiar nuevamente, empezando con el curso inicial de Python, y acabo de terminar el de Front end con HTML, CSS y JavaScript. Soy una persona autodidacta, curiosa y siempre dispuesta a aprender.</p>
+                    <p class="p1">A continuación te dejo un poco de mi historia. A los 12 años (con mucho esfuerzo de mis padres) tuve mi primer PC con monitor monocromático y Windows 3.1. Desde ese momento empezó mi vida con la tecnología, instalando y desinstalando diskettes de 3.5" y, obviamente, borrando algo que no tenía que borrar. Así empecé en este mundo lleno de código; tiempo más adelante, inicié mi carrera en la Universidad Tecnológica Nacional (UTN) en la carrera de Técnico Superior en Programación, pero por cosas de la vida, tuve que abandonar, y me dedique a mi segundo amor, la electrónica y mecánica automotriz. Trabajé para Peugeot y Renault, realizando cursos no solo de electrónica y tecnología, sino también de habilidades blandas, pasando por marketing, comunicación y gestión de proyectos. Hoy en día soy dueño de un negocio ya hace 8 años y contando. Pero... Uno siempre vuelve al primer amor, así que comencé a estudiar nuevamente, empezando con el curso inicial de Python, y acabo de terminar el de Front end con HTML, CSS y JavaScript. Soy una persona autodidacta, curiosa y siempre dispuesta a aprender.</p>
                     <p class="p2">¡¡¡Gracias por visitar mi currículum!!!</p>
                 </div>
             </section>
@@ -112,6 +131,7 @@
             <p>Desarrollado por Javier Monzon - 2024</p>
         </footer>
         <script src="./js/formulario.js"></script>
+        <script src="./js/modal.js"></script>
         <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
