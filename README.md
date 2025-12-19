@@ -46,7 +46,7 @@ Experto en lógica, debugging y resolución de problemas complejos – ahora apl
 - 🥉 **Front-End JavaScript** – Talento Tech – Diciembre 2024  
 - 📜 **Codo a Codo 4.0** – Programación Inicial (Python + Habilidades Blandas, 198 horas) – 2024  
 
-[PDFs en carpeta `/certificados`](./certificados)
+[PDFs de certificados en carpeta](https://github.com/Jamoverflow1982/Curriculum/tree/main/Certificados)
 
 ## 🛠️ Habilidades técnicas
 
