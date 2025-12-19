@@ -35,4 +35,32 @@ Experto en lógica, debugging y resolución de problemas complejos – ahora apl
 
 | Parte | Descripción | Demo | Repo |
 |------|-------------|------|------|
-| **Backend** | API REST CRUD (Java 17, Spring Boot, JPA, H2/MySQL) | - | [Ver repo](https://github.com/Jamoverflow1982
+| **Backend** | API REST CRUD (Java 17, Spring Boot, JPA, H2/MySQL) | - | [Ver repo](https://github.com/Jamoverflow1982/Back-tienda-de-deportes) |
+| **Frontend React** | Carrito con Context API, cálculo automático y notificaciones | [🔗 Demo live](https://emporium-react.netlify.app) | [Ver repo](https://github.com/Jamoverflow1982/React-Talento-Tech) |
+| **Frontend Vanilla** | Catálogo responsive con hover | [🔗 Demo live](https://jamoverflow1982.github.io/Tienda-deportes/) | [Ver repo](https://github.com/Jamoverflow1982/Tienda-deportes) |
+
+## 🏆 Certificaciones oficiales
+
+- 🥇 **React JS** – Talento Tech (80 horas) – **Diciembre 2025**  
+- 🥈 **Back-End Java** – Talento Tech (80 horas) – Julio 2025  
+- 🥉 **Front-End JavaScript** – Talento Tech – Diciembre 2024  
+- 📜 **Codo a Codo 4.0** – Programación Inicial (Python + Habilidades Blandas, 198 horas) – 2024  
+
+[PDFs en carpeta `/certificados`](./certificados)
+
+## 🛠️ Habilidades técnicas
+
+`Java` `Spring Boot` `Spring Data JPA` `React JS` `Context API` `JavaScript ES6+` `HTML5` `CSS3` `REST API` `Git` `Netlify` `Postman` `VS Code`
+
+## 💡 Habilidades blandas
+
+Resolución de problemas • Aprendizaje autónomo • Atención al detalle • Trabajo bajo presión • Comunicación clara
+
+---
+
+<div align="center">
+
+**¡Abierto a oportunidades junior full stack!**  
+👋 ¡Hablemos! Estoy listo para sumar valor a tu equipo.
+
+</div>
